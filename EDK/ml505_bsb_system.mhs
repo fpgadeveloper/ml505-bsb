@@ -357,8 +357,8 @@ BEGIN xps_uartlite
  PARAMETER C_BASEADDR = 0x83e20000
  PARAMETER C_HIGHADDR = 0x83e2ffff
  BUS_INTERFACE SPLB = mb_plb
- PORT RX = fpga_0_RS232_Uart_1_RX_pin
- PORT TX = fpga_0_RS232_Uart_1_TX_pin
+ PORT RX = fpga_0_RS232_Uart_1_sin_pin
+ PORT TX = fpga_0_RS232_Uart_1_sout_pin
 END
 
 BEGIN xps_uartlite
@@ -371,8 +371,8 @@ BEGIN xps_uartlite
  PARAMETER C_BASEADDR = 0x83e00000
  PARAMETER C_HIGHADDR = 0x83e0ffff
  BUS_INTERFACE SPLB = mb_plb
- PORT RX = fpga_0_RS232_Uart_2_RX_pin
- PORT TX = fpga_0_RS232_Uart_2_TX_pin
+ PORT RX = fpga_0_RS232_Uart_2_sin_pin
+ PORT TX = fpga_0_RS232_Uart_2_sout_pin
 END
 
 BEGIN clock_generator
