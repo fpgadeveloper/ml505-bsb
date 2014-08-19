@@ -1,9 +1,9 @@
 #Please do not modify this file by hand
-XmpVersion: 11.1
-VerMgmt: 11.1
+XmpVersion: 14.7
+VerMgmt: 14.7
 IntStyle: default
+Flow: ise
 MHS File: ml505_bsb_system.mhs
-MSS File: ml505_bsb_system.mss
 Architecture: virtex5
 Device: xc5vlx50t
 Package: ff1136
@@ -19,69 +19,11 @@ InsertNoPads: 0
 WarnForEAArch: 1
 HdlLang: VHDL
 SimModel: BEHAVIORAL
+ExternalMemSim: 0
 UcfFile: data/ml505_bsb_system.ucf
 EnableParTimingError: 1
 ShowLicenseDialog: 1
+BInfo: 
 Processor: microblaze_0
-BootLoop: 1
-XmdStub: 0
-SwProj: TestApp_Memory_microblaze_0
-Processor: microblaze_0
-Executable: TestApp_Memory_microblaze_0/executable.elf
-Source: TestApp_Memory_microblaze_0/src/TestApp_Memory.c
-DefaultInit: EXECUTABLE
-InitBram: 0
-Active: 1
-CompilerOptLevel: 2
-GlobPtrOpt: 0
-DebugSym: 1
-ProfileFlag: 0
-ProgStart: 
-StackSize: 
-HeapSize: 
-LinkerScript: TestApp_Memory_microblaze_0/src/TestApp_Memory_LinkScr.ld
-ProgCCFlags: 
-CompileInXps: 1
-NonXpsApp: 0
-SwProj: TestApp_Peripheral_microblaze_0
-Processor: microblaze_0
-Executable: TestApp_Peripheral_microblaze_0/executable.elf
-Source: TestApp_Peripheral_microblaze_0/src/TestApp_Peripheral.c
-Source: TestApp_Peripheral_microblaze_0/src/xintc_tapp_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xgpio_tapp_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xiic_selftest_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xsysace_selftest_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xlltemac_example_polled.c
-Source: TestApp_Peripheral_microblaze_0/src/xlltemac_example_util.c
-Source: TestApp_Peripheral_microblaze_0/src/xlltemac_example_intr_sgdma.c
-Source: TestApp_Peripheral_microblaze_0/src/xtmrctr_selftest_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xtmrctr_intr_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xuartns550_selftest_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xuartns550_intr_example.c
-Source: TestApp_Peripheral_microblaze_0/src/xuartlite_selftest_example.c
-Header: TestApp_Peripheral_microblaze_0/src/intc_header.h
-Header: TestApp_Peripheral_microblaze_0/src/gpio_header.h
-Header: TestApp_Peripheral_microblaze_0/src/iic_header.h
-Header: TestApp_Peripheral_microblaze_0/src/sysace_header.h
-Header: TestApp_Peripheral_microblaze_0/src/xlltemac_example.h
-Header: TestApp_Peripheral_microblaze_0/src/lltemac_header.h
-Header: TestApp_Peripheral_microblaze_0/src/lltemac_intr_header.h
-Header: TestApp_Peripheral_microblaze_0/src/tmrctr_header.h
-Header: TestApp_Peripheral_microblaze_0/src/tmrctr_intr_header.h
-Header: TestApp_Peripheral_microblaze_0/src/uartns550_header.h
-Header: TestApp_Peripheral_microblaze_0/src/uartns550_intr_header.h
-Header: TestApp_Peripheral_microblaze_0/src/uartlite_header.h
-DefaultInit: EXECUTABLE
-InitBram: 0
-Active: 1
-CompilerOptLevel: 2
-GlobPtrOpt: 0
-DebugSym: 1
-ProfileFlag: 0
-ProgStart: 
-StackSize: 
-HeapSize: 
-LinkerScript: TestApp_Peripheral_microblaze_0/src/TestApp_Peripheral_LinkScr.ld
-ProgCCFlags: 
-CompileInXps: 1
-NonXpsApp: 0
+ElfImp: 
+ElfSim: 
